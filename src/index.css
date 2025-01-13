@@ -82,17 +82,17 @@ footer .cta ul {
   align-items: center;
   display: flex;
   justify-content: space-between;
+  padding: 40px;
 }
 
 footer .cta ul li {
+  width: calc(100 / 5);
   display: flex;
   height: 55px;
-  padding: 0 40px;
 }
 
 footer .cta ul li img {
-  height: 55px;
-  width: 50px;
+  max-width: 50px;
 }
 
 footer .cta li a {
@@ -100,4 +100,41 @@ footer .cta li a {
   text-transform: uppercase;
   line-height: 55px;
   margin: 0 10px;
+}
+
+footer .nav {
+  background-image: url('./assets/img/footer-bg.jpg');
+  padding: 35px 0 55px 0;
+}
+
+footer .nav .container {
+  display: flex;
+  position: relative;
+}
+
+footer .nav .col {
+  width: calc(100/9);
+}
+
+footer .nav ul {
+  margin-right: 25px;
+}
+
+footer .nav ul h4 {
+  color: #FFFFFF;
+  font-size: 1.2rem;
+  font-weight: bold;
+  text-transform: uppercase;
+  padding: 13px 0;
+}
+
+footer .nav li a {
+  font-size: .8rem;
+  color: #959595;
+}
+
+footer .nav .logo {
+  position: absolute;
+  right: 0;
+  top: -120px;
 }
