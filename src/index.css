@@ -16,7 +16,6 @@ ul {
 }
 
 a {
-  color: #000;
   text-decoration: none;
 }
 
@@ -25,6 +24,7 @@ img {
 }
 
 .container {
+  height: 100%;
   max-width: 1280px;
   margin: 0 auto;
 }
@@ -49,6 +49,7 @@ header ul {
 }
 
 header ul li a {
+  color: #1C1C1C;
   text-transform: uppercase;
   margin: 0 10px;
   padding: 51px 0;
@@ -66,4 +67,37 @@ main {
   color: #FFFFFF;
   padding: 40px 10px;
   font-weight: bold;
+}
+
+/* footer */
+
+footer .cta {
+  background-color: #0089FA;
+  height: 155px;
+  font-size: .7rem;
+}
+
+footer .cta ul {
+  height: 100%;
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+}
+
+footer .cta ul li {
+  display: flex;
+  height: 55px;
+  padding: 0 40px;
+}
+
+footer .cta ul li img {
+  height: 55px;
+  width: 50px;
+}
+
+footer .cta li a {
+  color: #FFFFFF;
+  text-transform: uppercase;
+  line-height: 55px;
+  margin: 0 10px;
 }
