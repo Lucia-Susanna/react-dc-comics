@@ -137,4 +137,44 @@ footer .nav .logo {
   position: absolute;
   right: 0;
   top: -120px;
+  z-index: 2;
+}
+
+footer .social {
+  background-color: #303030;
+  height: 100px;
+}
+
+footer .social .container {
+  height: 100px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+footer .social button {
+  border-radius: 0%;
+  padding: 14px;
+  background-color: #303030;
+  color: #FFFFFF;
+  text-transform: uppercase;
+  font-weight: bolder;
+  border: 2px solid #0089FA;
+}
+
+footer .social h3 {
+  color: #0089FA;
+  font-size: 1.3rem;
+  text-transform: uppercase;
+  margin-right: 15px;
+  line-height: 40px;
+}
+
+footer .social ul {
+  display: flex;
+}
+
+footer .social ul li {
+  margin-left: 15px;
+
 }
