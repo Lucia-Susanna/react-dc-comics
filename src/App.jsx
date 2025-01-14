@@ -1,6 +1,6 @@
-import Header from "../contents/Header"
-import Main from "../contents/Main"
-import Footer from "../contents/Footer"
+import Header from "../src/components/Header"
+import Main from "../src/components/Main"
+import Footer from "../src/components/Footer"
 
 const App = () => {
   return (
