@@ -50,7 +50,7 @@ const Footer = () => {
             <ul>
               <h4>DC</h4>
               <li><a href="">Terms Of Use</a></li>
-              <li><a href="">Privacy polici (New)</a></li>
+              <li><a href="">Privacy policy (New)</a></li>
               <li><a href="">Ad Choices</a></li>
               <li><a href="">Advertising</a></li>
               <li><a href="">Jobs</a></li>
