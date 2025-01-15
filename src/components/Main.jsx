@@ -2,6 +2,11 @@ const Main = (prop) => {
   const comics = prop.comics
   return (
     <main>
+      <div className="hero">
+        <div className="container">
+          <button>current series</button>
+        </div>
+      </div>
       <div className="container">
         <div className="cardContainer">
           {
@@ -16,6 +21,10 @@ const Main = (prop) => {
               </div>
             ))
           }
+        </div>
+
+        <div className="more">
+          <button>load more</button>
         </div>
       </div>
     </main>
