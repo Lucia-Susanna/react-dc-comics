@@ -36,20 +36,13 @@ const Footer = (prop) => {
             <ul>
               <h4>dc comics</h4>
               {menus.ComicsMenu.map(item => (
-                <li key={item.id}><a href={item.url}>{item.text}</a></li>
+                <li key={`comics-${item.id}`}><a href={item.url}>{item.text}</a></li>
               ))}
-              {/* <li><a href="">Characters</a></li>
-              <li><a href="">Comics</a></li>
-              <li><a href="">Movies</a></li>
-              <li><a href="">TV</a></li>
-              <li><a href="">Games</a></li>
-              <li><a href="">Videos</a></li>
-              <li><a href="">News</a></li> */}
             </ul>
             <ul>
               <h4>shop</h4>
               {menus.ShopMenu.map(item => (
-                <li key={item.id}><a href={item.url}>{item.text}</a></li>
+                <li key={`shop-${item.id}`}><a href={item.url}>{item.text}</a></li>
               ))}
             </ul>
           </div>
@@ -57,19 +50,8 @@ const Footer = (prop) => {
             <ul>
               <h4>DC</h4>
               {menus.DcMenu.map(item => (
-                <li key={item.id}><a href={item.url}>{item.text}</a></li>
+                <li key={`dc-${item.id}`}><a href={item.url}>{item.text}</a></li>
               ))}
-              {/* <li><a href="">Terms Of Use</a></li>
-              <li><a href="">Privacy policy (New)</a></li>
-              <li><a href="">Ad Choices</a></li>
-              <li><a href="">Advertising</a></li>
-              <li><a href="">Jobs</a></li>
-              <li><a href="">Subscription</a></li>
-              <li><a href="">Talent Workshops</a></li>
-              <li><a href="">CPSC Certificates</a></li>
-              <li><a href="">Ratings</a></li>
-              <li><a href="">Shop Help</a></li>
-              <li><a href="">Contact Us</a></li> */}
             </ul>
           </div>
           <div className="col">
@@ -77,13 +59,8 @@ const Footer = (prop) => {
               <h4>sites</h4>
 
               {menus.SitesMenu.map(item => (
-                <li key={item.id}><a href={item.url}>{item.text}</a></li>
+                <li key={`sites-${item.id}`}><a href={item.url}>{item.text}</a></li>
               ))}
-              {/* <li><a href="">DC</a></li>
-              <li><a href="">MAD Magazine</a></li>
-              <li><a href="">DC Kids</a></li>
-              <li><a href="">DC Universe</a></li>
-              <li><a href="">DC Power Visa</a></li> */}
             </ul>
           </div>
           <div className="logo">
@@ -100,13 +77,8 @@ const Footer = (prop) => {
             <ul>
               <h3>follow us</h3>
               {menus.SocialMenu.map(item => (
-                <li key={item.id}><a href={item.url}><img src={item.img} alt="" /></a></li>
+                <li key={`social-${item.id}`}><a href={item.url}><img src={item.img} alt="" /></a></li>
               ))}
-              {/* <li><a href=""><img src="../src/assets/img/footer-facebook.png" alt="" /></a></li>
-              <li><a href=""><img src="../src/assets/img/footer-twitter.png" alt="" /></a></li>
-              <li><a href=""><img src="../src/assets/img/footer-youtube.png" alt="" /></a></li>
-              <li><a href=""><img src="../src/assets/img/footer-pinterest.png" alt="" /></a></li>
-              <li><a href=""><img src="../src/assets/img/footer-periscope.png" alt="" /></a></li> */}
             </ul>
           </div>
         </div>

@@ -10,7 +10,7 @@ const Header = (prop) => {
         <nav>
           <ul>
             {menu.map(item => (
-              <li key={item.id}>
+              <li key={`header-${item.id}`}>
                 <a className={item.isActive ? 'active' : ''} href={item.url}>{item.text}</a>
               </li>
             ))}
