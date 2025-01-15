@@ -1,8 +1,22 @@
-const Main = () => {
+const Main = (prop) => {
+  const comics = prop.comics
   return (
     <main>
       <div className="container">
-        -- Content goes here --
+        <div className="cardContainer">
+          {
+            comics.map(comic => (
+              <div className="card">
+                <div className="cover">
+                  <img src={comic.thumb} alt={comic.title} />
+                </div>
+                <div className="title">
+                  <p>{comic.series}</p>
+                </div>
+              </div>
+            ))
+          }
+        </div>
       </div>
     </main>
   )
